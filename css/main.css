@@ -22,7 +22,6 @@ body {
 }
 
 article {
-  display: inline-block;
   width: 100%;
   text-align: center;
 }
@@ -31,11 +30,16 @@ h1 {
   margin: 0 0 1.3rem;
 }
 
-div {
+.main {
   display: inline-block;
-  width: 100%;
   text-align: left;
-  padding: 1em;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 p {
@@ -81,6 +85,16 @@ img {
     margin: 0 0 1.4rem;
   }
 
+  .main {
+    width: 48%;
+  }
+
+  .image {
+    width: 48%;
+    padding: 2rem 0;
+  }
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -93,6 +107,14 @@ img {
   h1,
   p {
     margin: 0 0 1.5rem;
+  }
+
+  .main {
+    max-width: 460px;
+  }
+
+  .image {
+    max-width: 460px;
   }
 
 }
