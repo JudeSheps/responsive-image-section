@@ -38,7 +38,7 @@ h1 {
   vertical-align: middle;
 }
 
-.image-flex {
+.img-flex {
   display: inline-block;
   vertical-align: middle;
 }
@@ -54,6 +54,10 @@ a {
   text-decoration: none;
   color: #e2e2e2;
   border-radius: 4px;
+}
+
+a:hover {
+  color: #000;
 }
 
 img {
@@ -90,7 +94,7 @@ img {
     width: 48%;
   }
 
-  .image-flex {
+  .img-flex {
     width: 48%;
     padding: 2rem 0;
   }
@@ -114,7 +118,7 @@ img {
     max-width: 460px;
   }
 
-  .image-flex {
+  .img-flex {
     max-width: 460px;
   }
 
